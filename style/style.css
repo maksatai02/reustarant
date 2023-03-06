@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #000000;
+}
+header{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+nav a{
+    padding-left: 21px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+
+} 
+a:hover{
+    border: 1px solid red;
+
+}
+.Main{
+    border: 1px solid rgba(209, 169, 84, 0.9);
+    color: #D1A954;
+}
+.event{
+    color: #D1A954;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.row{
+    gap: 10px;
+}
+.tablef{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 340px;
+    display: flex;
+}
+
+.wedding{
+    background-image: url(../images/Rectangle\ 2\ \(1\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 400px;
+    display: flex;
+}
+
+.all{
+    background-image: url(../images/Rectangle\ 2\ \(2\).png);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 400px;
+    display: flex;
+}
+
